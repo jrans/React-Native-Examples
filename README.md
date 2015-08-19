@@ -1,6 +1,52 @@
 # React-Native-Examples
 Learn React Native by Examples
 
+## WHAT
+
+
+
+## WHY
+
+#### React
+
+The React library was created by Facebook in order ot increase engineer productivity, scalalbility, readability and all the ilities. 
+* React forces the developer to break down their application into discrete composable components (which will then behave in a predictable way meaning code..)
+* React is scalable and works well in big teams.
+
+####Native 
+
+Is difficult:
+
+* Laying things out on a screens with varying sizes. 
+* No access to react or relay
+* Most importantly, recompiling the whole applicaiton for every change slowing down the developemnt velocity massively.
+
+But necessary:
+
+* Platform specific UI components which update regularly.
+* Android or IOS (...) components can use specific native gesture recognisers.
+* Web does not have a sophisticated threading model meaning we can't parallelise work onto multiple threads.
+
+
+But tricky:
+
+
+
+### React Native: The best of both worlds
+
+
+
+
+
+
+
+
+
+
+
+
+## WHEN
+
 ### Install
 
 * Xcode 7.0 (This version allows for you to test your app on your own device without needing a paid devloper account)
