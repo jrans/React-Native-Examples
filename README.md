@@ -30,7 +30,11 @@ But necessary:
 
 But tricky:
 
+Because you really want to execute our JS of the main thread. Otherwise the JS might end up blocking the UI. This risks being costly as, if our JS on one thread tries to access a resource on another thread, our system has to lock (which can stall the UI). There is also an overhead with every round trip between the native environmet and the JS virtual machine. 
 
+To get around all this we need to make sure our system passes messages across the thread boundary asynchronously and that we can batch up messages. React does this
+
+declarative --> async --> responsive
 
 ### React Native: The best of both worlds
 
