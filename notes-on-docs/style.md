@@ -18,7 +18,9 @@ React Native doesn't implement CSS but instead relies on JavaScript to let you s
 
 React solves most of this by applying styles inline. This works as:
 1) We're not writing the styles 'inline', we give a reference to a file that's somewhere else in the file. 
+
 2) Style is a better name than class. You want to style the element not class it. 
+
 3) Importantly, we are not applying the style directly, we are using React virtual DOM and this is being diff-ed the same way elements are. 
 
 
