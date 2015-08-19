@@ -21,3 +21,4 @@ Navigator has a number of methods:
 * getCurrentRoutes(): returns the current list of routes
 * jumpBack(): Jump backward without unmounting the current scene
 * jumpForward(): Jump forward to the next scene in the route stack
+* jumpTo(route): Transition to an existing scene without unmounting
