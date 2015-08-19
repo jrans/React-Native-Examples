@@ -76,6 +76,20 @@ Usage:
 This creates your project directory in your current directory:
 ```% react-native init MyApplication```
 
+## FUNDAMENTALS
+
+* All the native elements you will be using in your component must be required at the top of your file:
+``` 
+var React = require('react-native');
+var {
+ AppRegistry,
+ StyleSheet,
+ Text,
+ View
+} = React; 
+```
+
+
 ## WHEN
 
 NOW!!!!!!!
