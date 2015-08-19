@@ -6,13 +6,13 @@ React Native doesn't implement CSS but instead relies on JavaScript to let you s
 
 ###Problems with CSS at scale
 
-*Global namespace - CSS throw loads of stuff into the global namespace. Bad idea
-*Dependencies - ?
-*Dead Code Elimination
-*Minification
-*Sharing Constants - sharing constants between css and js is a bad idea but sometimes nessisary i.e. if you change a *stype property with JS.
-*Non-deterministic Resolution - if you load in files asynchronoursly, you have no control over the order of you styles *and cannot be sure of presendence. 
-*Isolation - If we are modifying the styles from a base and that changes, our component style may break in the future.
+* Global namespace - CSS throw loads of stuff into the global namespace. Bad idea
+* Dependencies - ?
+* Dead Code Elimination
+* Minification
+* Sharing Constants - sharing constants between css and js is a bad idea but sometimes nessisary i.e. if you change a * stype property with JS.
+* Non-deterministic Resolution - if you load in files asynchronoursly, you have no control over the order of you styles *and cannot be sure of presendence. 
+* Isolation - If we are modifying the styles from a base and that changes, our component style may break in the future.
 
 ###React Solution
 *Global namespace -  All styles ar local JS variables and can be exported when needed
