@@ -76,7 +76,7 @@ Usage:
 This creates your project directory in your current directory:
 ```% react-native init MyApplication```
 
-## FUNDAMENTALS
+## FUNdamentals
 
 * All the native elements you will be using in your component must be required at the top of your file:
 ``` 
@@ -114,6 +114,16 @@ To each element we reference it's respective enty in the style object, like so:
           style={styles.thumbnail}
         />
 ```
+
+You can and should use [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+* Declare your variables at the top of your page. 
+
+* Component lifecycles and methods are the same as using React normally so your logic should be the same.
+
+* [Fecthing data](https://facebook.github.io/react-native/docs/network.html) is helped by the api [Fetch](https://fetch.spec.whatwg.org/) which is avaiable in react native by default. 
+
+* 
 
 
 ## WHEN
