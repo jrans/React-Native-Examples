@@ -123,7 +123,7 @@ You can and should use [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-
 
 * [Fecthing data](https://facebook.github.io/react-native/docs/network.html) is helped by the api [Fetch](https://fetch.spec.whatwg.org/) which is avaiable in react native by default. 
 
-* 
+* Use a ListView element to display huge lists of data. It will only render items that are on screen at the time, potentially saving a huge amount of resources.
 
 
 ## WHEN
