@@ -22,6 +22,8 @@ React solves most of this by applying styles inline. This works as:
 * Importantly, we are not applying the style directly, we are using React virtual DOM and this is being diff-ed the same way elements are.
 
 
+
+
 * Global namespace -  All styles are local JS variables and you can export them if you need to,
 * Dependencies -  You can use a module system like CommonJS/AMD
 * Dead Code Elimination -  Most styles are local variables that linters/minifiers can remove
