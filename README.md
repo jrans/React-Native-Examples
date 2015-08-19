@@ -89,6 +89,32 @@ var {
 } = React; 
 ```
 
+* In React, there is a style object declared on each component. The style object contains entries which give the styles for each element in the component. e.g.
+
+```
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  thumbnail: {
+    width: 53,
+    height: 81,
+  },
+});
+```
+
+To each element we reference it's respective enty in the style object, like so:
+
+```
+        <Image
+          source={{uri: movie.posters.thumbnail}}
+          style={styles.thumbnail}
+        />
+```
+
 
 ## WHEN
 
