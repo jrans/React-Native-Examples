@@ -38,18 +38,20 @@ declarative --> async --> responsive
 
 ### React Native: The best of both worlds
 
+Since react apps are seperated into discrete components, we never need to read from the undelying rendered view. This means that the components are no blocking and can be processed on a respective thread. 
+
+React is not tightly coupled to the DOM so can be used with javascript core (native phone engine) to render any platform specific components.
+
+It can be adopted incrementally building on old apps as when needed.
+
+[The article where we gout or beautiful insights](https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/)
+
+### Learn once, write anywhere
+
+React Native is designed to be used across devices, but each device needs its own specific components, so the idea is that as developers we can learn to use React Native, and easily create versions of our apps for different platforms using the same core logic.
 
 
-
-
-
-
-
-
-
-
-
-## WHEN
+## HOW
 
 ### Install
 
@@ -73,3 +75,7 @@ Usage:
 
 This creates your project directory in your current directory:
 ```% react-native init MyApplication```
+
+## WHEN
+
+NOW!!!!!!!
